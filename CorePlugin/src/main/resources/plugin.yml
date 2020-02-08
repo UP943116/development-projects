@@ -1,0 +1,66 @@
+name: CorePlugin
+main: net.thelounge.core.CorePlugin
+version: 0.0.1
+authors: [TomTomPlaysGames]
+commands:
+ staffchat:
+  aliases: [mc, modchat]
+ adminchat:
+  aliases: [ownerchat, devchat, ac]
+ announce:
+  usage: /<command>
+  description: Allows Senior Staff to broadcast a message acrosss the network.
+  aliases: [acc, alert, broadcast]
+ announceuhc:
+  usage: /<command>
+  description: Allows Staff to broadcast a UHC Match acrosss the network.
+  aliases: [accuhc, alertuhc, broadcastuhc]
+ message:
+  usage: /<command>
+  aliases: [m, msg]
+ reply:
+  usage: /<command>
+  aliases: [r, rep]
+ disguise:
+  usage: /<command>
+  aliases: [d, dis, nick]
+ undisguise:
+  usage: /<command>
+  aliases: [ud, udis, unnick]
+ chatclear:
+  usage: /<command>
+  aliases: [cc, clearchat]
+ report:
+  usage: /<command>
+ globalmute:
+  usage: /<command>
+  aliases: [mutechat, chatmute, gm]
+ permissions:
+  usage: /<command>
+  description: Allows you to set users to groups.
+  aliases: [group, pex, perms]
+ listgroups:
+  usage: /<command>
+  description: Allows you to see avalible groups
+  aliases: [grouplist, pexlist, permslist]
+ globalreboot:
+  usage: /<command>
+ addskin:
+  usage: /<command>
+ color:
+  usage: /<command>
+  description: Allows users to change there color.
+  aliases: [chatcolor, colour]
+ discord:
+  usage: /<command>
+  description: Allows users to link discord to minecraft.
+  aliases: [linkdiscord, linkdc]
+ staffnotifications:
+  usage: /<command>
+  description: Allows staff to toggle notifications.
+  aliases: [stfu, sn]
+ pmtoggle:
+  usage: /<command>
+  description: Allows users to toggle pms
+  aliases: [msgtoggle, togglepm]
+
